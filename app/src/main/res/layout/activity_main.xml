@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    app:layout_constrainedHeight="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100F0F"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="Aberration\n\nNoun-A deviatiom\nfrom what is\n normal"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="Pirouette\n\nNoun-An act of\nspinning on one\nfoot"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="Scabrous\n\nAdjective- Indecent \nor sordid"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="touché\n\nExclamation- Used \nto acknowledge a\ngood point"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="Scald\n\nVerb- Burnt with\n very hot liquid"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#E38F61"
+            android:text="Dinghy\n\nNoun-A small\nopen sailing boat"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="#E38F61"
+            android:text="Forlorn\n\nAdjective- Sad\nand alone"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="#E38F61"
+            android:text="Jargon\n\nNoun- Words used\nby a particular group"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textStyle="italic" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
